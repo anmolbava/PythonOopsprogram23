@@ -2,6 +2,7 @@
 
 def functoprintname(n):
     print("Printing the function name times", n)
+    print("HELLO WORLD")
 
 n = int(input())
 for i in range(0,n):
