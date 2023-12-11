@@ -1,0 +1,15 @@
+[1mdiff --git a/pythonfunctions.py b/pythonfunctions.py[m
+[1mindex be0fae1..c3e19ba 100644[m
+[1m--- a/pythonfunctions.py[m
+[1m+++ b/pythonfunctions.py[m
+[36m@@ -2,8 +2,7 @@[m
+ [m
+ def functoprintname(n):[m
+     print("Printing the function name times", n)[m
+[31m-    print("HELLO WORLD")[m
+[31m-[m
+[32m+[m[32m    print("this print statement was added by developer")[m
+ n = int(input())[m
+ for i in range(0,n):[m
+     functoprintname(n)[m
+\ No newline at end of file[m
