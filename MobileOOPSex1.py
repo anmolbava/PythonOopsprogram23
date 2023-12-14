@@ -11,9 +11,7 @@ class Mobile:
     def cameraclick(self): 
         print("click the photo") 
 
- 
-
-M1 = Mobile()  # init function is initialised as soon as object is created 
+ M1 = Mobile()  # init function is initialised as soon as object is created
 print(M1.calling()) 
 print(M1.cameraclick()) 
 M2=Mobile() 
