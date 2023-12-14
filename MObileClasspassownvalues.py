@@ -1,5 +1,5 @@
-Class Mobile:
-    def__init__(self,BrandNm,color,isJack):
+class Mobile:
+    def __init__(self,BrandNm,color,isJack):
         self.brandName = BrandNm
         self.color = color
         self.isJack = isJack
