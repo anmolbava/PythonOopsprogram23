@@ -2,7 +2,7 @@ import smtplib as s
 ob = s.SMTP("smtp.gmail.com",587) # creating an object ob of the smtplib module as s of class SMTP
 # when we create object ob for class SMTP within module smtplib as s we pass smtp server and port number as constructoror__init__ method parameters for SMTP class
 ob.starttls()
-ob.login("funsuktestwangdu@gmail.com","passwordgoeshere")
+ob.login("emailsenderaccount","passwordgoeshere")
 subject = "Sending mail using python"
 body = "This is only educational purposes"
 message = "Subject:{}\n\n{}".format(subject,body)
