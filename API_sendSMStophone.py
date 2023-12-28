@@ -19,4 +19,4 @@ def send_message(number,message):
 send_message("9209015413","This is youtube message my first python api program")
 
 # the function send message has input for number and message is created to define api endpoint to hit, api key, senderid, number etc.
-# response object/variable collects the output from the requests package from get method inside the requests pakcage
+# response object/variable collects the output from the requests package from get method inside the requests package

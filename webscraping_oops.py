@@ -18,4 +18,4 @@ with open(filename,"w+", encoding="utf-8") as f:
 list_imgs=bs.find_all('img')
 print(list_imgs)
 # the able list_imgs variable stores only imgs strings in the source code
-# and then finally prints imgs search 
+# and then finally prints imgs tags found in temp.html scrapped
